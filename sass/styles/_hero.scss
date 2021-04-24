@@ -1,0 +1,21 @@
+/* Hero Section */
+@import "./constants";
+
+.hero {
+    padding:$padding;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background: $background-color;
+  
+  .hero, img {
+    display: block;
+    height: auto;
+    width: 15.5em;
+  }
+  &--text {
+    @include Tekst;
+    
+  }
+}
+  
